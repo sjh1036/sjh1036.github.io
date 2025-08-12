@@ -9,18 +9,31 @@
 	<title>Jack Shippee | Software Developer</title>
    <style>
       html { 
-          background-color: #9c9d90;
+         background-color: #9c9d90;
+         overflow-x: hidden;
       }
       
       body {
       	font-family: 'Josefin Sans', sans-serif;
       	color: #3a3b22;
+         
       }
       
       h1,h2,h3,h4,h5,h6 {
 
       	font-family: 'Josefin Sans', sans-serif;
       	color: #3a3b22;
+        font-style: italic;
+        
+      }
+
+      h2 {
+        text-align: center;
+        margin: 10px;
+      }
+
+      h4 {
+        text-decoration:underline;
       }
       
       header {
@@ -28,117 +41,244 @@
         padding: 5px;
         margin: -10px;
         margin-bottom: 20px;
-        background-color: rgb(223, 223, 223);   
+        background-color: rgb(200, 200, 200);   
         text-align: center;
-        width: 100000px auto;
+        width: auto;
       }
 	
-      .remove {
-      	margin: 10px;
+      .remove1 {
+      	padding-top: 40px;
+        padding-left: 40px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin: -20px;
       }
-      
+
+      .remove2 {
+      	padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+        padding-right: 40px;
+        margin: -20px;
+      }
+
       .grid {
       	display: flex;
         width: 100%;
         height: 100%;
+        
       }
-      .big {
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 01);
-      border-radius: 12px;
-      background-color: rgb(191, 191, 191);
-      padding: 20px;
+
+      .about {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 01);
+        border-radius: 12px;
+        background-color: rgb(191, 191, 191);
+        padding: 20px;
         margin: 20px;
-        width: 45%;
+        width: 40%;
      	
-        height: 30%;
+        height: 40%;
         /*max-width: 900px;*/
       }
 
-      .smallleft {
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 01);
-      border-radius: 12px;
-      background-color: rgb(191, 191, 191);
-      padding: 20px;
+      .skills {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 01);
+        border-radius: 12px;
+        background-color: rgb(191, 191, 191);
+        padding: 20px;  
         margin: 20px;
-        width: 22%;
-        /*max-width: 900px;*/
-        height: 30%;
+        width: 30%;
+     	
+        height: 40%;
         /*max-width: 900px;*/
       }
 
-      .smallright {
+      .education {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 01);
+        border-radius: 12px;
+        background-color: rgb(191, 191, 191);
+        padding: 20px;
         margin: 20px;
         width: 20%;
         /*max-width: 900px;*/
-        height: 30%;
+        height: 40%;
+        /*max-width: 900px;*/
+      }
+
+      .projects {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 01);
+        border-radius: 12px;
+        background-color: rgb(191, 191, 191);
+        padding: 20px;
+        margin: 20px;
+        width: 75%;
+     	
+        height: 40%;
+        /*max-width: 900px;*/
+      }
+
+      .additional {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 01);
+        border-radius: 12px;
+        background-color: rgb(191, 191, 191);
+        padding: 20px;
+        margin: 20px;
+        width: 20%;
+        /*max-width: 900px;*/
+        height: 40%;
         /*max-width: 900px;*/
       }
 
     
       a {
-      	text-decoration: none;
+    
       	color: #3a3b22;
       }
       
       a:visited {
-      	text-decoration: none;
+      	
       	color: #3a3b22;
       }
       
       a:hover {
       	color: #9c9d90;
       }
+
+     
       
-      .written {
+      .half {
       	margin: 5px;
       	width: 50%;
         max-width: 50%; 
         text-align: justified;
       }
+
+      .third {
+        
+        margin: auto;
+        margin-top: 5px;
+        max-width: 30%;
+        width: 30%
+      }
+      
    </style>
 </head>
 <body>
     <header>
-      <h1 class = "remove" style = "text-align: left;">Jack Shippee</h1>
-      <h2 class = "remove" style = "text-align: center;">Software Developer</h2>
-      <h3 class = "remove" style = "text-align: right;"><a href = "https://github.com/sjh1036" target="_blank" rel="noopener noreferrer">@sjh1036</a> | <a href = "https://www.linkedin.com/in/jackshippee" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href = "mailto:jackshippee@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></h3>    
+      <h1 class = "remove1" style = "text-align: left;">Jack Shippee</h1>
+      <h2 style = "text-align: center;">Software Developer</h2>
+      <h3 class = "remove2" style = "text-align: right;"><a href = "https://github.com/sjh1036" target="_blank" rel="noopener noreferrer">@sjh1036</a> | <a href = "https://www.linkedin.com/in/jackshippee" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href = "mailto:jackshippee@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></h3>    
     </header>
     
 <div class = "grid">
-   <div class = "big">
+   <div class = "about">
       <h2>About Me</h2>
       <hr>
-      <div class = "grid"> 
-      	<h4 class = "written" style = "margin-bottom: 0px;">Cognitive Games in VR</h4>
-        <h4 class = "written" style = "margin-bottom: 0px;">Fighting Stagnation</h4>
-      </div>
-      <div class = "grid"> 
-      	<p class = "written">This my most recent team endeavor as apart of my Senior Project at UNH. As team lead, my team and I developed and designed two cognitive evaluations to be played in VR</p>
-        <p class = "written">A 2D platforming game built using Java and LibGDX, Fighting Stagnation was developed as apart of my Game Development class </p>
-      </div>
-      <h4>You can find my Github portfolio @sjh1036 at the link above<h4>
+      <h4>Hello!</h4>
+      <p>I'm Jack Shippee, a Computer Science graduate with a minor in Classics from the University of New Hampshire.</p>
+      <p>My main area of expertise is Game development, as well as Systems and Algorithm development.</p>
+      <p> My time at UNH, as well as high school, has given me extensive experience with relevant tools, languages,  </p>
+      <h4>You can find my repository of projects, LinkedIn, and my email above at the links above.</h4>
    </div>
 
-   <div class = "big">
-      <h2>Projects</h2>
+   <div class = "skills">
+      <h2>Skills</h2>
       <hr>
-      <p>Hello!<br><br>I'm Jack Shippee, a Computer Science graduate with a minor in Classics from the University of New Hampshire. <br>My main area of interest is Game development, as well as Systems and Algorithm development.</p>
+      <div class = "grid"> 
+      	<h4 class = "third" style = "margin-bottom: 0px;">Languages</h4>
+        <h4 class = "third" style = "margin-bottom: 0px;">Tools/Applications</h4>
+        <h4 class = "third" style = "margin-bottom: 0px;">Soft Skills</h4>
+      </div>
+      <div class = "grid"> 
+        <ul class = "third">
+      	  <li>Java</li>
+          <li>C</li>
+          <li>C#</li>
+          <li>C++</li>
+          <li>Scala</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>Assembly</li>
+          <li>Visual Basic</li>
+        </ul>
+        <ul class = "third">
+          <li>CLIs</li>
+      	  <li>JetBrains IDEs (CLion, InteliJ, etc.)</li>
+          <li>VS Code</li>
+          <li>Android Studio</li>
+          <li>Git/GitHub/GitLab</li>
+          <li>LibGDX</li>
+          <li>Unity 3D</li>
+          <li>Blender</li>
+          <li>MongoDB</li>
+        </ul>
+        <ul class = "third">
+      	  <li>Leadership</li>
+          <li>Problem-Solving</li>
+          <li>Teamwork</li>
+          <li>Adaptability</li>
+          <li>Responsibility</li>
+          <li>Deadlines</li>
+          
+        </ul>
+      </div>
    </div>
+   <div class = "education">
+      <h2>Education</h2>
+      <hr>
+      
+      <h4 style="margin-bottom: -10px;">University Of New Hampshire (2021-2025)</h4>
+      <ul>
+        <li>3.04 GPA</li>
+        <li>B.S.: Computer Science, Minor: Classics</li>
+        <li>Classes taken:</li>
+       
+      </ul>
+      
+      
+      <h4 style="margin-bottom: -10px;">Keene High School (2017-2021)</h4>
+      <ul>
+        <li>3.2 GPA</li>
+        <li>AP and Honors Student</li>
+        <li>Began my programming experience</li>
+      </ul>
+      
+   </div>
+
+   
 </div>
 
 <div class = "grid">
-   <div class = "big">
-      <h2>Skills</h2>
+   
+   <div class = "projects">
+      <h2>Projects</h2>
       <hr>
-      
-   </div>
-   <div class = "smallleft">
-      <h2>Education</h2>
-      <hr>
-   </div>
-   <div class = "smallleft">
+      <div class = "grid"> 
+      	<h4 class = "half" style = "margin-bottom: 0px;">Cognitive Games in VR: Team Lead/Developer</h4>
+        <h4 class = "half" style = "margin-bottom: 0px;">Fighting Stagnation: Lead Developer</h4>
+      </div>
+      <div class = "grid"> 
+      	<p class = "half">The "Cognitive Games in VR" project consists of two cognitive tests, the "N-Back" and "Tower of London" tests, designed and developed by our team for the purpose of studying the the correlation between physical balance and cognitive function in VR.<br><br>Our project followed Agile methodologies in our development cycles in order to provide regular and meaningful progress to our sponsor, the MOVE Lab of UNH, meaning my responsibilities as team lead were to facilitate communication with the sponsor as well as division of labor amongst the group. My responsibilities as a developer were within the design of the "N-Back Test" within the Unity 3D environment as well as the functionality of the test itself and its accompanying scripts.<br><br> The project was awarded First Place in CS: Applications as the UNH Undergraduate Research conference.</p>
+        <p class = "half">A 2D platforming game built in Java with Android Studio, LibGDX, and Tiled, "Fighting Stagnation" was developed as apart of my Game Development class.<br><br>My teammates led the art direction as well as UI/UX design meaning my responsibility was to develop the functionality of the game. This included implementation of player/enemy movement and animations, collisions, as well as level design.</p>
+        
+      </div>
+    </div>
+   <div class = "additional">
       <h2>Additional Experience</h2>
       <hr>
+      <h4 style="margin-bottom: -10px;">Poshhaus - Warehouse Employee<br>(June 2023 - August 2023, Keene NH)</h4>
+      <ul>
+        <li>Shipping online orders via FBA</li>
+        <li>Warehouse operations/Manual Labor</li>
+      </ul>
+      <h4 style="margin-bottom: -10px;">Ramuntos Brick Oven Pizza - Pizza Chef<br>(May 2022 - August 2022, Brattleboro VT)</h4>
+      <ul>
+        <li>Food preparation</li>
+        <li>Customer service</li>
+      </ul>
+
    </div>
 </div>
 </body>
